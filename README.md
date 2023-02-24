@@ -14,7 +14,7 @@ The Neighbourhood Assistance mobile application was built using Flutter, a cross
 ### Backend
 The Backend service is built using express and MongoDB.
 The LeKaa-Backend provides an API that allows the LeKaa-Frontend to interact with the backend and manage tasks. The API is designed to be RESTful and supports the following endpoints currently: 
-POST /user/register: Register a User.
-POST /user/login: User Login Authentication.
-POST /register/addorder: Add a new order to Database.
-GET /register/getOrders: Fetch Orders List on Reciever Side.
+* POST /user/register: Register a User.
+* POST /user/login: User Login Authentication.
+* POST /register/addorder: Add a new order to Database.
+* GET /register/getOrders: Fetch Orders List on Reciever Side.
