@@ -8,6 +8,13 @@ Generally in foriegn countries, people buy all their groceries and daily house-h
 The Neighbourhood Assistance mobile application connects individuals in need of daily household items with those who are willing to assist with the shopping.
 With this app, people who are unable to go shopping can easily find someone to assist them, and those who are willing to help can easily offer their services. The application offers a simple, convenient and stress-free solution for people in need of household items, making everyday life a little bit easier.
 
-### How we built it
-The Neighbourhood Assistance mobile application was built using Flutter, a cross-platform development framework that allowed for fast and efficient development. To enhance the user experience, we integrated the app with Appwrite, a powerful backend-as-a-service platform, as well as Twilio and Google Maps. With these integrations, we were able to provide real-time updates, improved communication capabilities and precise location tracking. We used a combination of cutting-edge technologies and design thinking to bring this solution to life.
+### How it is built
+The Neighbourhood Assistance mobile application was built using Flutter, a cross-platform development framework that allowed for fast and efficient development. To enhance the user experience, we integrated the app with Nodejs as Backend as well as Twilio and Google Maps. With these integrations, we were able to provide real-time updates, improved communication capabilities and precise location tracking. We used a combination of cutting-edge technologies and design thinking to bring this solution to life.
 
+### Backend
+The Backend service is built using express and MongoDB.
+The LeKaa-Backend provides an API that allows the LeKaa-Frontend to interact with the backend and manage tasks. The API is designed to be RESTful and supports the following endpoints currently: 
+POST /user/register: Register a User.
+POST /user/login: User Login Authentication.
+POST /register/addorder: Add a new order to Database.
+GET /register/getOrders: Fetch Orders List on Reciever Side.
